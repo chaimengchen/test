@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+    <test name="case1">
+        <classes>
+            <class name="TestDBConnection"/>
+            <class name="DBConfig"/>
+        </classes>
+    </test>
+</suite>
