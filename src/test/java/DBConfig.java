@@ -7,10 +7,13 @@ import org.testng.annotations.BeforeTest;
 public class DBConfig {
     @BeforeSuite
     public void beforeSuite(){
+
         System.out.println("beforeSuite");
+        System.out.println("Test this branch");
     }
     @AfterSuite
     public void afterSuite(){
+
         System.out.println("afterSuite");
     }
     @BeforeTest
@@ -19,6 +22,7 @@ public class DBConfig {
     }
     @AfterTest
     public void afterTest(){
+
         System.out.println("afterTest");
     }
 }
