@@ -9,7 +9,7 @@ public class DBConfig {
     public void beforeSuite(){
 
         System.out.println("beforeSuite");
-        System.out.println("Test this branch");
+        System.out.println("Test this branch....");
     }
     @AfterSuite
     public void afterSuite(){
