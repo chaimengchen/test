@@ -23,7 +23,7 @@ public class charUtilTest {
     @Test(dataProvider = "validProvider")
     public void charToAcsiiTest(final char character, final int acsii){
         int result = charUtils.charToAscii(character);
-        System.out.println(character +"转换为ascii码为:"+result);
+        System.out.println(character +"转换为ascii码为:"+result+"aaaaa");
         Assert.assertEquals(result,acsii);
     }
     @Test(dataProvider = "validProvider")
