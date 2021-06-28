@@ -2,22 +2,9 @@
 <suite name="TestAll">
     <test name="case1">
         <classes>
-            <class name="TestDBConnection"/>
-                <methods>
-                    <include name="runOtherTest2"/>
-                </methods>
+            <class name="dataprovider.charUtilTest"></class>
         </classes>
 
-    </test>
-    <test name="DB">
-        <classes>
-            <exclude name="not_run">
-                <class name="DBConfig"/>
-                <methods>
-                    <include name="beforeSuite"></include>
-                </methods>
-            </exclude>
-        </classes>
     </test>
 
 </suite>
