@@ -1,5 +1,7 @@
-import org.junit.Test;
+
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
 
 public class TestDBConnection {
     @Test
@@ -10,6 +12,6 @@ public class TestDBConnection {
     @Test
     public void runOtherTest2()
     {
-        System.out.println("@run - runOtherTest2");
+        System.out.println("@run-runOtherTest2");
     }
 }

@@ -3,7 +3,21 @@
     <test name="case1">
         <classes>
             <class name="TestDBConnection"/>
-            <class name="DBConfig"/>
+                <methods>
+                    <include name="runOtherTest2"/>
+                </methods>
+        </classes>
+
+    </test>
+    <test name="DB">
+        <classes>
+            <exclude name="not_run">
+                <class name="DBConfig"/>
+                <methods>
+                    <include name="beforeSuite"></include>
+                </methods>
+            </exclude>
         </classes>
     </test>
+
 </suite>

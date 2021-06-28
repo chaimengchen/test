@@ -22,7 +22,6 @@ public class DBConfig {
     }
     @AfterTest
     public void afterTest(){
-
         System.out.println("afterTest");
     }
 }
